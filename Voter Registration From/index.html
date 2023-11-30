@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Responsive Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Registration Form</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title" style="color: green;">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name <span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth <span style="color: red;">*</span></label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email <span style="color: gray; font-size:10px;">(option)</span></label>
+                            <input type="text" placeholder="Enter your email" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number <span style="color: red;">*</span></label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender <span style="color: red;">*</span></label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Upload Your Image  <span style="color: red;">*</span></label>
+                            <input type="file"  required >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title" style="color: green;">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>ID Type <span style="color: gray; font-size:10px;">(option)</span></label>
+                            <input type="text" placeholder="Enter ID type" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Cnic Number <span style="color: red;">*</span></label>
+                            <input type="number" placeholder="Enter ID number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Date <span style="color: red;">*</span></label>
+                            <input type="date" placeholder="Enter your issued date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Expiry Date <span style="color: gray; font-size:10px;">(option)</span></label>
+                            <input type="date" placeholder="Enter expiry date" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Create Password  <span style="color: red;">*</span></label>
+                            <input type="password" placeholder="Create Password" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Confrim Password <span style="color: red;">*</span></label>
+                            <input type="Password" placeholder="Confrim Password" required>
+                        </div>
+
+                        
+                    </div>
+
+                    <button class="submit">
+                        <span class="btnText">Submit</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+           
+
+                    
+
+    <script src="script.js"></script>
+</body>
+</html>
